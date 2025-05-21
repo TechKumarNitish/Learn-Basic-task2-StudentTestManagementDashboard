@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "682d4004f7a17057bce3c58d_f2d3bc70-57dd-457e-bf36-ad28d7d5332f",
+  "id": "task2_updateBuilder",
+  "unpublishedCollection": {
+    "name": "updateBuilder",
+    "pageId": "task2",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

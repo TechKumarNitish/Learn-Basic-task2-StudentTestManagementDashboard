@@ -1,7 +1,8 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 119,
+  "bottomRow": 126,
+  "bottomRowBeforeCollapse": 126,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
@@ -14,12 +15,12 @@
       "key": "borderRadius"
     },
     {
-      "key": "isDisabled"
+      "key": "isVisible"
     }
   ],
   "dynamicPropertyPathList": [
     {
-      "key": "isDisabled"
+      "key": "isVisible"
     }
   ],
   "dynamicTriggerPathList": [
@@ -28,11 +29,11 @@
     }
   ],
   "isDefaultClickDisabled": true,
-  "isDisabled": "{{student_data.updatedRows.length==0}}",
+  "isDisabled": false,
   "isLoading": false,
-  "isVisible": true,
+  "isVisible": "{{student_data.updatedRows.length>0}}",
   "key": "x9mp3jjycu",
-  "leftColumn": 50,
+  "leftColumn": 49,
   "minWidth": 120,
   "mobileBottomRow": 119,
   "mobileLeftColumn": 46,
@@ -40,8 +41,8 @@
   "mobileTopRow": 115,
   "needsErrorInfo": false,
   "onClick": "{{updateQuery.run().then(() => {\n  getStudentChapterTestData.run().then(() => {\n    showAlert('updated successfully!');\n  }).catch(() => {\n    showAlert('Something Went Wrong!');\n  });\n});}}",
-  "originalBottomRow": 119,
-  "originalTopRow": 115,
+  "originalBottomRow": 126,
+  "originalTopRow": 122,
   "parentColumnSpace": 14.234375,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -50,9 +51,10 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 62,
+  "rightColumn": 61,
   "text": "Submit",
-  "topRow": 115,
+  "topRow": 122,
+  "topRowBeforeCollapse": 122,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "iqj4m4u902",

@@ -5,6 +5,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
   "bottomRow": 119,
+  "bottomRowBeforeCollapse": 119,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "cachedTableData": {},
   "canFreezeColumn": true,
@@ -224,7 +225,11 @@
       "textColor": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
-      "validation": {},
+      "validation": {
+        "errorMessage": "Please enter valid score",
+        "isColumnEditableCellRequired": true,
+        "min": "0"
+      },
       "verticalAlignment": "CENTER",
       "width": 150
     },
@@ -360,7 +365,11 @@
       "textColor": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
-      "validation": {},
+      "validation": {
+        "errorMessage": "Please enter valid time in second",
+        "isColumnEditableCellRequired": true,
+        "min": "1"
+      },
       "verticalAlignment": "CENTER",
       "width": 150
     }
@@ -373,6 +382,7 @@
   "tableData": "{{getStudentChapterTestData.data}}",
   "textSize": "0.875rem",
   "topRow": 71,
+  "topRowBeforeCollapse": 71,
   "totalRecordsCount": 0,
   "type": "TABLE_WIDGET_V2",
   "version": 2,

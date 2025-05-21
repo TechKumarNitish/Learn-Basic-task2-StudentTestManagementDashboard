@@ -4,19 +4,19 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 15,
   "boxShadow": "none",
-  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( \n            {\n              label: subject_name.options[0].label,\n              value: subject_name.options[0].value\n            }\n          ))(chapter_name.options, chapter_name.serverSideFiltering) }}",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( \n            {\n              label: subject_name.options[0].label,\n              value: subject_name.options[0].value\n            }\n          ))(subject_name.options, subject_name.serverSideFiltering) }}",
   "dynamicBindingPathList": [
     {
       "key": "sourceData"
-    },
-    {
-      "key": "defaultOptionValue"
     },
     {
       "key": "accentColor"
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "defaultOptionValue"
     }
   ],
   "dynamicHeight": "FIXED",

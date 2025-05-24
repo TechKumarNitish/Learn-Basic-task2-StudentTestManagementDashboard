@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "682d4004f7a17057bce3c58d_0e3086e1-801b-46a0-a04c-cf54c3720813",
+  "id": "task2_filter",
+  "unpublishedCollection": {
+    "name": "filter",
+    "pageId": "task2",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "flag",
+        "value": "false"
+      }
+    ]
+  }
+}

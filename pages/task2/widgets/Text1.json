@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 66,
+  "bottomRow": 62,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -33,8 +33,8 @@
   "mobileRightColumn": 19,
   "mobileTopRow": 64,
   "needsErrorInfo": false,
-  "originalBottomRow": 66,
-  "originalTopRow": 62,
+  "originalBottomRow": 62,
+  "originalTopRow": 58,
   "overflow": "NONE",
   "parentColumnSpace": 12.3125,
   "parentId": "0",
@@ -43,10 +43,10 @@
   "responsiveBehavior": "fill",
   "rightColumn": 63,
   "shouldTruncate": false,
-  "text": "{{ student_data.processedTableData.length === 0 && state.status===state.statusContant.success?`No student from the class <i><b>${filter.filterData.className}</b></i> and section <i><b>${filter.filterData.section}</b></i> appeared for the test: ` : \"\" }}\n",
+  "text": "{{ \nstate.status!==state.statusContant.success?\"Loading...\":\nstudent_data.processedTableData.length === 0 ?`No student from the class <i><b>${filter.filterData.className}</b></i> and section <i><b>${filter.filterData.section}</b></i> appeared for the test: ` : \"\" }}\n",
   "textAlign": "CENTER",
   "textColor": "#ef4444",
-  "topRow": 62,
+  "topRow": 58,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

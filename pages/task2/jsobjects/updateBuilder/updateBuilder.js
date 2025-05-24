@@ -34,7 +34,7 @@ export default {
     if (timeCases) {
       parts.push(`time_taken_in_sec = CASE\n${timeCases}ELSE time_taken_in_sec END`);
     }
-
+		
     return `
       UPDATE public.chapter_test_data
       SET ${parts.join(",\n")}

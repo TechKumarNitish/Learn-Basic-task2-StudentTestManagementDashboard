@@ -1,11 +1,14 @@
 SELECT 
  SD.roll_number,
  SD.student_name,
+ SD.class,
+ SD.section,
  CD.subject,
  CD.chapter_name,
  CD.test_name,
  CD.score,
- CD.time_taken_in_sec
+ CD.time_taken_in_sec,
+ SD.school_name
 FROM 
   public.student_data SD
 JOIN 
@@ -23,5 +26,4 @@ WHERE
 	AND 
 	 ({{!Select2.selectedOptionValue}} OR chapter_name = {{Select2.selectedOptionValue}})
 	AND 
-	 ({{!test_name.selectedOptionValue}} OR test_name = {{test_name.selectedOptionValue}})
-limit 10;
+	 ({{!test_name.selectedOptionValue}} OR test_name = {{test_name.selectedOptionValue}});

@@ -13,7 +13,7 @@
       },
       {
         "name": "filterData",
-        "value": "{\n  schoolName: '',\n  subjectName: '',\n  className: '',\n  section: '',\n  chapterName: '',\n  testName: ''\n}"
+        "value": "{\n  schoolName: null,\n  subjectName: null,\n  className: null,\n  section: null,\n  chapterName: null,\n  testName: null\n}"
       }
     ]
   }

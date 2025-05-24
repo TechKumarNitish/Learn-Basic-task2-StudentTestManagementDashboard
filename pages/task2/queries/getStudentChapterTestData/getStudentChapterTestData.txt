@@ -16,14 +16,14 @@ JOIN
 ON 
   SD.roll_number = CD.roll_number
 WHERE 
-  ({{!school_name.selectedOptionValue}} OR school_name = {{school_name.selectedOptionValue}})
+  ({{!filter.filterData.schoolName}} OR school_name = {{filter.filterData.schoolName}})
   AND
-  ({{!class_name.selectedOptionValue}} OR class = {{class_name.selectedOptionValue}})
+  ({{!filter.filterData.className}} OR class = {{filter.filterData.className}})
   AND
-  ({{!section.selectedOptionValue}} OR section = {{section.selectedOptionValue}})
+  ({{!filter.filterData.section}} OR section = {{filter.filterData.section}})
 	 AND
-  ({{!subject_name.selectedOptionValue}} OR subject = {{subject_name.selectedOptionValue}})
+  ({{!filter.filterData.subjectName}} OR subject = {{filter.filterData.subjectName}})
 	AND 
-	 ({{!Select1.selectedOptionValue}} OR chapter_name = {{Select1.selectedOptionValue}})
+	 ({{!filter.filterData.chapterName}} OR chapter_name = {{filter.filterData.chapterName}})
 	AND 
-	 ({{!test_name.selectedOptionValue}} OR test_name = {{test_name.selectedOptionValue}});
+	 ({{!filter.filterData.testName}} OR test_name = {{filter.filterData.testName}});

@@ -1,12 +1,12 @@
 export default {
 	loaded: false,
 	filterData: {
-		schoolName:'',
-		subjectName:'',
-		className:'',
-		section:'',
-		chapterName:'',
-		testName:''
+		schoolName:null,
+		subjectName:null,
+		className:null,
+		section:null,
+		chapterName:null,
+		testName:null
 	},
 	filterBtnHanlder: async () =>{
 		try{

@@ -10,6 +10,7 @@ export default {
 			await getTestName.run();
 			await getSubjectName.run();
 			await getChapterName.run();
+			filter.setFilterData();
 			await getStudentChapterTestData.run();
 			filter_btn.setDisabled(false);
 			state.status=state.statusContant.success;

@@ -29,7 +29,7 @@
     ],
     "name": "getChapterName",
     "pageId": "task2",
-    "runBehaviour": "ON_PAGE_LOAD",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": true
   }
 }

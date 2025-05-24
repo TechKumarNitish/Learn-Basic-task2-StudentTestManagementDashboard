@@ -10,7 +10,7 @@
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
         {
-          "value": false
+          "value": true
         }
       ],
       "timeoutInMillisecond": 10000
@@ -30,6 +30,6 @@
     "name": "getChapterName",
     "pageId": "task2",
     "runBehaviour": "ON_PAGE_LOAD",
-    "userSetOnLoad": false
+    "userSetOnLoad": true
   }
 }

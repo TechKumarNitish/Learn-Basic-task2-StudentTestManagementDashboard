@@ -1,1 +1,0 @@
-{{ updateBuilder.buildQuery() }}

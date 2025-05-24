@@ -23,10 +23,6 @@
     {
       "id": "task2",
       "isDefault": true
-    },
-    {
-      "id": "task2 Copy",
-      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {

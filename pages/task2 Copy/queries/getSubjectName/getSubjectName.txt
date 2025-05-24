@@ -1,1 +1,0 @@
-SELECT DISTINCT subject from public.chapter_test_data

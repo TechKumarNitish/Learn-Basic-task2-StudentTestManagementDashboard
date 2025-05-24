@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 63,
   "shouldTruncate": false,
-  "text": "{{ student_data.processedTableData.length === 0 && loaded===true ? \"No student from the class and section you selected in above filter is appeared for the test you selected in above filter. Please adjust your filter!\" : \"\" }}\n",
+  "text": "{{ student_data.processedTableData.length === 0 && filter.loaded===true ? \"No student from the class and section you selected in above filter is appeared for the test you selected in above filter. Please adjust your filter!\" : \"\" }}\n",
   "textAlign": "CENTER",
   "textColor": "#ef4444",
   "topRow": 65,

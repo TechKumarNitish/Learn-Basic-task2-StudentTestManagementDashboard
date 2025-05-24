@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 63,
   "shouldTruncate": false,
-  "text": "{{ \nstate.status!==state.statusContant.success?\"Loading...\":\nstudent_data.processedTableData.length === 0 ?`No student from the class <i><b>${filter.filterData.className}</b></i> and section <i><b>${filter.filterData.section}</b></i> appeared for the test: ` : \"\" }}\n",
+  "text": "{{ \nstate.status!==state.statusContant.success?state.message:\nstudent_data.processedTableData.length === 0 ?`No student from the class <i><b>${filter.filterData.className}</b></i> and section <i><b>${filter.filterData.section}</b></i> appeared for the test: ` : \"\" }}\n",
   "textAlign": "CENTER",
   "textColor": "#ef4444",
   "topRow": 58,

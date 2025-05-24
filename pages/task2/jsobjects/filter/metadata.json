@@ -8,7 +8,7 @@
     "pluginType": "JS",
     "variables": [
       {
-        "name": "flag",
+        "name": "loaded",
         "value": "false"
       }
     ]

@@ -1,7 +1,7 @@
 export default {
-	flag: false,
+	loaded: false,
 	filterBtnHanlder: async () =>{
 		await getStudentChapterTestData.run();	
-		this.flag=true;
+		this.loaded=true;
 	}
 }

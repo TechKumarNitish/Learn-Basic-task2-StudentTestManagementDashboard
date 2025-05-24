@@ -29,7 +29,7 @@
     ],
     "name": "getStudentChapterTestData",
     "pageId": "task2",
-    "runBehaviour": "ON_PAGE_LOAD",
-    "userSetOnLoad": false
+    "runBehaviour": "MANUAL",
+    "userSetOnLoad": true
   }
 }

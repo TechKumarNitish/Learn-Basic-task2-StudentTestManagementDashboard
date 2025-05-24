@@ -7,6 +7,7 @@ export default {
 			 state.message='';
 			filter_btn.setDisabled(true);
 			await getChapterName.run()
+			filter_btn.setDisabled(false);
 			state.status=state.statusContant.success;
 			state.message=null;
 		}catch(e){

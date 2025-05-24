@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 75,
+  "bottomRow": 72,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -43,10 +43,10 @@
   "responsiveBehavior": "fill",
   "rightColumn": 52,
   "shouldTruncate": false,
-  "text": "{{student_data.processedTableData.length === 0 && filter.loaded===true?\"Please adjust your filter!\":''}}",
+  "text": "{{student_data.processedTableData.length === 0 && state.status===state.statusContant.success?\"Please adjust your filter!\":''}}",
   "textAlign": "CENTER",
   "textColor": "#ef4444",
-  "topRow": 71,
+  "topRow": 68,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

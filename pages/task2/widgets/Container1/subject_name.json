@@ -51,7 +51,7 @@
   "mobileRightColumn": 20,
   "mobileTopRow": 44,
   "needsErrorInfo": false,
-  "onOptionChange": "{{getChapterName.run()}}",
+  "onOptionChange": "{{populateChapterDropDown.populateChapterName();}}",
   "optionLabel": "label",
   "optionValue": "value",
   "originalBottomRow": 51,

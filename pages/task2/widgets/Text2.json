@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 71,
+  "bottomRow": 68,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 44,
   "shouldTruncate": false,
-  "text": "{{student_data.processedTableData.length === 0 && filter.loaded===true ? \n`Subject Name: <b>${filter.filterData.subjectName}</b>\nChapter Name: <b>${filter.filterData.chapterName}</b>\nTest Name: <b>${filter.filterData.testName}</b>\n`\n:''}}",
+  "text": "{{student_data.processedTableData.length === 0 && state.status===state.statusContant.success ? \n`Subject Name: <b>${filter.filterData.subjectName}</b>\nChapter Name: <b>${filter.filterData.chapterName}</b>\nTest Name: <b>${filter.filterData.testName}</b>\n`\n:''}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 64,

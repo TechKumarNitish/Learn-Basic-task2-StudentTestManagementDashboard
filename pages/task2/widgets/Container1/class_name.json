@@ -51,7 +51,7 @@
   "mobileRightColumn": 20,
   "mobileTopRow": 13,
   "needsErrorInfo": false,
-  "onOptionChange": "{{getChapterName.run()}}",
+  "onOptionChange": "{{populateChapterDropDown.populateChapterName();}}",
   "optionLabel": "label",
   "optionValue": "value",
   "parentId": "nrunn7jwgb",

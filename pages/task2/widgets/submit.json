@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 152,
+  "bottomRow": 149,
   "bottomRowBeforeCollapse": 152,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -56,7 +56,7 @@
   "responsiveBehavior": "hug",
   "rightColumn": 61,
   "text": "Submit",
-  "topRow": 148,
+  "topRow": 145,
   "topRowBeforeCollapse": 148,
   "type": "BUTTON_WIDGET",
   "version": 1,

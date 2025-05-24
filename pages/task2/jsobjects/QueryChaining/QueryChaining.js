@@ -5,7 +5,7 @@ export default {
 			await getClasses.run();
 			await getChapterName.run();
 			await getStudentChapterTestData.run();
-			filter_btn.setDisabled(true);
+			filter_btn.setDisabled(false);
 		}catch(e){
 			
 		}

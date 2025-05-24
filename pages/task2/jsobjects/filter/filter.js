@@ -9,9 +9,18 @@ export default {
 		testName:''
 	},
 	filterBtnHanlder: async () =>{
-		this.setFilterData();
-		await getStudentChapterTestData.run();	
-		this.loaded=true;
+		try{
+			state.status=state.statusContant.loading;
+			state.message="Loading...";
+			this.setFilterData();
+			await getStudentChapterTestData.run();	
+			state.firstLoad=true;
+			state.status=state.statusContant.success;
+			state.message=null;
+		}catch(e){
+			state.status=state.statusContant.error
+			state.message="Something went wrong. Please try again later or refersh the page!";
+		}
 	},
 	setFilterData(){
 		this.filterData.schoolName=school_name.selectedOptionValue;

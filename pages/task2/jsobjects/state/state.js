@@ -1,12 +1,6 @@
 export default {
-	flag: false,
-	myVar2: {},
-	myFun1 () {
-		//	write code here
-		//	this.myVar1 = [1,2,3]
-	},
-	async myFun2 () {
-		//	use async-await or promises
-		//	await storeValue('varName', 'hello world')
-	}
+	firstLoad:false,
+	statusContant:{loading:"LOADING", error:"ERROR", success:"SUCCESS", initial:"INITIAL"},
+	status: this.statusContant.initial,
+	message:"Loading...",
 }

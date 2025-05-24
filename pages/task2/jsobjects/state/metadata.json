@@ -8,12 +8,20 @@
     "pluginType": "JS",
     "variables": [
       {
-        "name": "flag",
+        "name": "firstLoad",
         "value": "false"
       },
       {
-        "name": "myVar2",
-        "value": "{}"
+        "name": "statusContant",
+        "value": "{\n  loading: \"LOADING\",\n  error: \"ERROR\",\n  success: \"SUCCESS\",\n  initial: \"INITIAL\"\n}"
+      },
+      {
+        "name": "status",
+        "value": "state.statusContant.initial"
+      },
+      {
+        "name": "message",
+        "value": "\"Loading...\""
       }
     ]
   }

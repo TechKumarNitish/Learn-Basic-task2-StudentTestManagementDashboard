@@ -1,1 +1,1 @@
-SELECT DISTINCT section FROM public.student_data;
+SELECT DISTINCT section FROM public.student_data ORDER BY section;

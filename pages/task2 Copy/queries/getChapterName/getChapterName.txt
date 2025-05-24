@@ -1,0 +1,1 @@
+SELECT DISTINCT Trim(chapter_name) from public.chapter_test_data

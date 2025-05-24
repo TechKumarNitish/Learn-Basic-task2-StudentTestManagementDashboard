@@ -1,1 +1,4 @@
-SELECT DISTINCT Trim(chapter_name) from public.chapter_test_data
+SELECT DISTINCT chapter_name FROM public.chapter_test_data CD JOIN 
+public.student_data SD ON CD.roll_number=SD.roll_number 
+WHERE subject='{{subject_name.selectedOptionValue}}' and class='{{class_name.selectedOptionValue}}'
+ORDER BY chapter_name;

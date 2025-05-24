@@ -1,1 +1,1 @@
-SELECT DISTINCT class FROM public.student_data;
+SELECT DISTINCT class FROM public.student_data ORDER BY class;

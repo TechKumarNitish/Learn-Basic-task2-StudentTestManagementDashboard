@@ -24,6 +24,6 @@ WHERE
 	 AND
   ({{!subject_name.selectedOptionValue}} OR subject = {{subject_name.selectedOptionValue}})
 	AND 
-	 ({{!Select2.selectedOptionValue}} OR chapter_name = {{Select2.selectedOptionValue}})
+	 ({{!Select1.selectedOptionValue}} OR chapter_name = {{Select1.selectedOptionValue}})
 	AND 
 	 ({{!test_name.selectedOptionValue}} OR test_name = {{test_name.selectedOptionValue}});

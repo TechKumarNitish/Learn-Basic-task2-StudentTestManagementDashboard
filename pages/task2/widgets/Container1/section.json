@@ -2,7 +2,7 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 22,
+  "bottomRow": 21,
   "boxShadow": "none",
   "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( \n            {\n              label: section.options[0].label,\n              value: section.options[0].value\n            }\n          ))(section.options, section.serverSideFiltering) }}",
   "dynamicBindingPathList": [
@@ -57,7 +57,7 @@
   "rightColumn": 31,
   "serverSideFiltering": false,
   "sourceData": "{{getSections.data.map( (obj) =>{ return  {'label': obj.section, 'value': obj.section } })}}",
-  "topRow": 15,
+  "topRow": 14,
   "type": "SELECT_WIDGET",
   "version": 1,
   "widgetId": "06nshyhz4e",

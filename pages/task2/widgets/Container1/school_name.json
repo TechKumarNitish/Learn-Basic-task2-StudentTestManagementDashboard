@@ -2,7 +2,7 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 8,
+  "bottomRow": 4,
   "boxShadow": "none",
   "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( \n            {\n              label: school_name.options[0].label,\n              value: school_name.options[0].value\n            }\n          ))(school_name.options, school_name.serverSideFiltering) }}",
   "dynamicBindingPathList": [
@@ -57,7 +57,7 @@
   "rightColumn": 60,
   "serverSideFiltering": false,
   "sourceData": "{{getSchoolNames.data.map( (obj) =>{ return  {'label': obj.school_name, 'value': obj.school_name } })}}",
-  "topRow": 1,
+  "topRow": 0,
   "type": "SELECT_WIDGET",
   "version": 1,
   "widgetId": "c0yq2vdv0t",

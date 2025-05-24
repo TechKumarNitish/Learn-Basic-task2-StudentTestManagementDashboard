@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT DISTINCT subject from public.chapter_test_data",
+      "body": "SELECT DISTINCT subject FROM public.chapter_test_data ORDER BY subject;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

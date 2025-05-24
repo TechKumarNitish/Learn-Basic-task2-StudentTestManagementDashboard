@@ -1,1 +1,1 @@
-SELECT DISTINCT subject from public.chapter_test_data
+SELECT DISTINCT subject FROM public.chapter_test_data ORDER BY subject;

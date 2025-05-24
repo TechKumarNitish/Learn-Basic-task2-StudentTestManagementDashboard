@@ -8,6 +8,10 @@
     "pluginType": "JS",
     "variables": [
       {
+        "name": "flag",
+        "value": "false"
+      },
+      {
         "name": "myVar1",
         "value": "[]"
       },
